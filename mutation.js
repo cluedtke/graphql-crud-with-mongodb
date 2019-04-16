@@ -1,7 +1,7 @@
 var {
     GraphQLNonNull,
     GraphQLString,
-} = require('mongo');
+} = require('graphql');
 var {
     book,
     bookType,
