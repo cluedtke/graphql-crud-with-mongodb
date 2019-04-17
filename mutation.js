@@ -2,10 +2,8 @@ var {
     GraphQLNonNull,
     GraphQLString,
 } = require('graphql');
-var {
-    book,
-    bookType,
-} = require('./book');
+var book = require('./book');
+var bookType = require('./book-type').bookType;
 
 module.exports = {
     addBook: {
