@@ -2,8 +2,10 @@ var {
     GraphQLObjectType,
     GraphQLList,
 } = require('graphql');
-var book = require('./book');
-var bookType = require('./book-type').bookType;
+var {
+    book,
+    bookType,
+ } = require('./book');
 
 // Query
 module.exports.BookQuery = new GraphQLObjectType({
